@@ -1,0 +1,26 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "452102cd-0bf1-4b3a-adab-d0beef8e4456",
+  "alias": "ShowDocsWebPart",
+  "componentType": "WebPart",
+
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
+  "supportsThemeVariants": true,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Other" },
+    "title": { "default": "Visualização de Pastas" },
+    "description": { "default": "Visualizador de Pastas Customizado." },
+    "officeFabricIconFontName": "FabricDocLibrary",
+    "properties": {
+      "listName": "",
+      "description": "Vizualização de Pasta",
+      "color":"",
+      "quantItems":"5"
+    }
+  }]
+}

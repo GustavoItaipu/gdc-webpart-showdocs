@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.14.0",
+    "libraryName": "show-docs-control",
+    "libraryId": "daf16ee8-d5cf-40c8-a1bd-f74423bc1a04",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "ShowDocsControl",
+    "solutionShortDescription": "ShowDocsControl description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

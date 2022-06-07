@@ -1,0 +1,44 @@
+{
+    "$schema":  "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+    "solution":  {
+                     "name":  "Visualizador de Pastas",
+                     "id":  "daf16ee8-d5cf-40c8-a1bd-f74423bc1a04",
+                     "version":  "1.0.0.4",
+                     "includeClientSideAssets":  true,
+                     "skipFeatureDeployment":  true,
+                     "isDomainIsolated":  false,
+                     "developer":  {
+                                       "name":  "",
+                                       "websiteUrl":  "",
+                                       "privacyUrl":  "",
+                                       "termsOfUseUrl":  "",
+                                       "mpnId":  "Undefined-1.14.0"
+                                   },
+                     "metadata":  {
+                                      "shortDescription":  {
+                                                               "default":  "Visualizador de Pastas Customizado"
+                                                           },
+                                      "longDescription":  {
+                                                              "default":  "Visualizador de Pastas Customizado"
+                                                          },
+                                      "screenshotPaths":  [
+
+                                                          ],
+                                      "videoUrl":  "",
+                                      "categories":  [
+
+                                                     ]
+                                  },
+                     "features":  [
+                                      {
+                                          "title":  "Visualizador de Pastas Customizado",
+                                          "description":  "The feature that activates elements of the show-docs-control solution.",
+                                          "id":  "1910bd11-37af-4a4a-9ab9-64aa9f26cc5c",
+                                          "version":  "1.0.0.4"
+                                      }
+                                  ]
+                 },
+    "paths":  {
+                  "zippedPackage":  "solution/show-docs-control.sppkg"
+              }
+}
